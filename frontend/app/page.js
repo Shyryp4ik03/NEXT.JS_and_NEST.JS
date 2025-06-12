@@ -1,11 +1,11 @@
 import Image from "next/image";
-import Auth from './auth/page'
+import Main from "./main/page";
 
 
 export default function Home() {
   return (
     <main>
-      <Auth/>
+      <Main/>
 
     </main>
   );

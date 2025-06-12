@@ -28,7 +28,7 @@ export default function ItemAuthorization() {
       const { access_token } = await response.json();
       localStorage.setItem('token', access_token);
       message.success('Успешный вход');
-      router.push('/builds');
+      router.push('/adminpanel');
     } catch (error) {
       setSaveError(error.message);
       message.error(error.message);

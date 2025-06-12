@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 import { Layout, Menu } from 'antd';
 import { HomeOutlined, PlusCircleOutlined } from '@ant-design/icons';
 import Link from 'next/link';
-import AddBuild from './AddBuild';
+import AddBuild from './AddResident';
 
 const { Header } = Layout;
 
